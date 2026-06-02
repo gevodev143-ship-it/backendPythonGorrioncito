@@ -1,0 +1,7 @@
+dependencia:
+pip install supabase
+pip install python-multipart
+pip install python-dotenv
+
+correr entorno virtual:
+python -m uvicorn main:app --reload 

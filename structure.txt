@@ -1,0 +1,12 @@
+mi_proyecto_flask/
+│
+├── app/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   └── __init__.py
+│
+├── venv/
+├── app.py
+├── requirements.txt
+└── .env
