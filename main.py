@@ -17,6 +17,7 @@ app.add_middleware(
         "http://localhost:3000",
         "http://localhost:5173",
         "https://ferreteriagorrioncito-red.vercel.app",
+        "https://ferreteriagorrioncito-one.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],

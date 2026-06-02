@@ -4,6 +4,7 @@ from app.intenciones.saludo.saludo                                              
 from app.intenciones.despedida.despedida                                           import responder_despedida
 from app.intenciones.buscar_producto.buscar_producto                               import buscar_producto
 from app.intenciones.buscar_productos_por_categoria.buscar_productos_por_categoria import buscar_productos_por_categoria
+from app.intenciones.ver_catalogo.ver_catalogo                                     import responder_ver_catalogo
 
 def generar_respuesta(intencion: str, mensaje: str) -> dict:
 
@@ -16,8 +17,11 @@ def generar_respuesta(intencion: str, mensaje: str) -> dict:
     if intencion == "buscar_producto":
         return buscar_producto(mensaje)
 
-    if intencion == "bucar_productos_por_categoria":
+    if intencion == "buscar_productos_por_categoria":         # ← typo corregido (faltaba la "s")
         return buscar_productos_por_categoria(mensaje)
+
+    if intencion == "ver_catalogo":                           # ← intención nueva agregada
+        return responder_ver_catalogo()
 
     # Fallback
     resultado_cat = buscar_productos_por_categoria(mensaje)
