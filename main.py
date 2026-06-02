@@ -16,11 +16,16 @@ app.add_middleware(
         "http://localhost:3001",
         "http://localhost:3000",
         "http://localhost:5173",
+        "https://ferreteriagorrioncito-red.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
-    expose_headers=["X-Insertados", "X-Duplicados", "Content-Disposition"],
+    expose_headers=[
+        "X-Insertados",
+        "X-Duplicados",
+        "Content-Disposition"
+    ],
 )
 
 app.include_router(excel_router,     tags=["Excel"])
