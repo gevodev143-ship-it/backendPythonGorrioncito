@@ -17,3 +17,4 @@ pydantic
 numpy
 
 scikit-learn
+matplotlib

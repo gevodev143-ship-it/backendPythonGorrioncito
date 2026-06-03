@@ -1,5 +1,5 @@
 import os
-import pickle
+import joblib
 
 from fastapi import APIRouter
 from pydantic import BaseModel
@@ -11,21 +11,14 @@ router = APIRouter()
 
 # ─── Cargar modelo ────────────────────────────────────────────────────────────
 
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "modelo.pkl")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "modelo.joblib")
 
-modelo     = None
-vectorizer = None
+modelo = None
 
 try:
-    with open(MODEL_PATH, "rb") as f:
-        data = pickle.load(f)
-        if isinstance(data, dict):
-            modelo     = data.get("modelo")
-            vectorizer = data.get("vectorizer")
-        else:
-            modelo = data
+    modelo = joblib.load(MODEL_PATH)
 except FileNotFoundError:
-    print("⚠️  modelo.pkl no encontrado")
+    print("⚠️ modelo.joblib no encontrado")
 
 # ─── Schema ───────────────────────────────────────────────────────────────────
 
@@ -61,8 +54,7 @@ async def detectar_intencion(req: MensajeRequest):
             return {"respuesta": {"tipo": "texto", "contenido": "Chat en mantenimiento, por favor espere..."}}
 
         # Predicción
-        X          = vectorizer.transform([texto]) if vectorizer else [texto]
-        probs      = modelo.predict_proba(X)[0]
+        probs = modelo.predict_proba([texto])[0]
         idx_max    = probs.argmax()
         intencion  = str(modelo.classes_[idx_max])
         porcentaje = round(float(probs[idx_max]) * 100, 2)

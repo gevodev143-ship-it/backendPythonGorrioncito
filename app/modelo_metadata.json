@@ -1,0 +1,20 @@
+{
+  "modelo": "Árbol (ID3)",
+  "f1_score_cv": 0.7734,
+  "clases": [
+    "buscar_producto",
+    "buscar_productos_por_categoria",
+    "despedida",
+    "saludo",
+    "ver_catalogo"
+  ],
+  "n_train": 178,
+  "n_test": 45,
+  "fecha": "2026-06-03T08:52:22.810610",
+  "comparativa": {
+    "Naive Bayes": 0.7495,
+    "Random Forest": 0.7708,
+    "KNN": 0.6953,
+    "Árbol (ID3)": 0.7734
+  }
+}
