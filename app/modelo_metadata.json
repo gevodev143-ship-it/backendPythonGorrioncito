@@ -1,6 +1,6 @@
 {
   "modelo": "Random Forest",
-  "f1_score_cv": 0.7514,
+  "f1_score_cv": 0.755,
   "clases": [
     "buscar_producto",
     "buscar_producto_por_precio",
@@ -11,11 +11,11 @@
   ],
   "n_train": 184,
   "n_test": 46,
-  "fecha": "2026-06-03T14:35:26.497053",
+  "fecha": "2026-06-03T15:13:34.269337",
   "comparativa": {
-    "Naive Bayes": 0.7351,
-    "Random Forest": 0.7514,
-    "KNN": 0.6427,
-    "Árbol (ID3)": 0.7271
+    "Naive Bayes": 0.7105,
+    "Random Forest": 0.755,
+    "KNN": 0.6611,
+    "Árbol (ID3)": 0.7368
   }
 }
