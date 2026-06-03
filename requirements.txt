@@ -1,4 +1,5 @@
 fastapi
+
 uvicorn[standard]
 
 supabase
@@ -18,3 +19,4 @@ numpy
 
 scikit-learn
 matplotlib
+openpyxl

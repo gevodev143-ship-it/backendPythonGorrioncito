@@ -24,11 +24,11 @@ def buscar_productos_por_categoria(mensaje: str) -> dict:
         for palabra in palabras_clave:
             p_norm = normalizar_query(palabra)
             p_orig = palabra.lower()
-            if n_norm == p_norm:                                    score += 100
-            elif n_norm.startswith(p_norm) or n.startswith(p_orig): score += 85
-            elif p_norm in n_norm:                                   score += 70
-            elif p_orig in n:                                        score += 60
-            elif n_norm in p_norm and len(n_norm) >= 4:              score += 40
+            if n_norm == p_norm:                                     score += 100
+            elif n_norm.startswith(p_norm) or n.startswith(p_orig):  score += 85
+            elif p_norm in n_norm:                                    score += 70
+            elif p_orig in n:                                         score += 60
+            elif n_norm in p_norm and len(n_norm) >= 4:               score += 40
             elif len(p_norm) >= 4 and len(n_norm) >= 4:
                 for i in range(min(len(p_norm), len(n_norm)), 3, -1):
                     if p_norm[:i] == n_norm[:i]:
@@ -49,7 +49,7 @@ def buscar_productos_por_categoria(mensaje: str) -> dict:
 
     productos = (
         supabase.table("producto")
-        .select("prdcid, prdcnombre, prdcimgnombrebucket")
+        .select("prdcid, prdcnombre, prdcimgnombrebucket, prdcprecio")
         .eq("ctgraid", categoria_encontrada["ctgraid"])
         .execute()
         .data or []

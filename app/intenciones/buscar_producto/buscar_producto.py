@@ -14,7 +14,7 @@ def buscar_producto(mensaje: str) -> dict:
 
     palabras_norm = [normalizar_query(p) for p in palabras_clave]
 
-    query = supabase.table("producto").select("prdcid, prdcnombre, prdcimgnombrebucket")
+    query = supabase.table("producto").select("prdcid, prdcnombre, prdcimgnombrebucket, prdcprecio")
     for palabra in palabras_norm:
         query = query.ilike("prdcnombre", f"%{palabra}%")
 
@@ -25,7 +25,7 @@ def buscar_producto(mensaje: str) -> dict:
         for palabra in palabras_norm:
             res = (
                 supabase.table("producto")
-                .select("prdcid, prdcnombre, prdcimgnombrebucket")
+                .select("prdcid, prdcnombre, prdcimgnombrebucket, prdcprecio")
                 .ilike("prdcnombre", f"%{palabra}%")
                 .execute()
             )

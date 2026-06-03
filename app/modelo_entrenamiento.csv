@@ -1,224 +1,231 @@
 ﻿texto,intencion_real,intencion_pred,confianza_%,correcto,split
-tienen clavos,buscar_producto,buscar_producto,100.0,True,train
-tienes productos para limpieza?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-LSTAME la categoria saspolio,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-buen diaa,saludo,saludo,100.0,True,train
-necesito comprar clavos,buscar_producto,buscar_producto,100.0,True,train
-tiene catalogo?,ver_catalogo,ver_catalogo,100.0,True,train
-tiene algun producto para limpieza?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-quiero saber si tienen alicates,buscar_producto,buscar_producto,100.0,True,train
-muestrame tu catalogo,ver_catalogo,ver_catalogo,100.0,True,train
-que tal,saludo,saludo,100.0,True,train
-que productos tiene para limpieza,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-quiero el catalogoooooo,ver_catalogo,ver_catalogo,100.0,True,train
-hasta mañana,despedida,despedida,100.0,True,train
-que productos ofrecen de jardineria,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-quiero ver el catalogo,ver_catalogo,ver_catalogo,100.0,True,train
-busco un taladro,buscar_producto,buscar_producto,100.0,True,train
-hola buenas tardes,saludo,saludo,100.0,True,train
-tienes MARTILLO GOMA (CHAPULIN),buscar_producto,buscar_producto,100.0,True,train
-holaaaa amigo,saludo,saludo,100.0,True,train
-hola que tal,saludo,saludo,100.0,True,train
-busco acero que me recomeindas,buscar_producto,buscar_producto,100.0,True,train
-aloo,saludo,saludo,80.0,True,train
-me despido,despedida,despedida,100.0,True,train
-ey,saludo,saludo,80.0,True,train
-adios,despedida,despedida,100.0,True,train
-ola,saludo,saludo,100.0,True,train
+quier ver el catalogo,ver_catalogo,ver_catalogo,96.0,True,train
+busco una escalera,buscar_producto,buscar_producto,99.0,True,train
+limpieza?,buscar_productos_por_categoria,buscar_productos_por_categoria,67.0,True,train
+martillo tienes,buscar_productos_por_categoria,buscar_productos_por_categoria,87.83,True,train
+hey,saludo,saludo,99.08,True,train
+nos vemos,despedida,despedida,76.45,True,train
+teneis catalogos?,ver_catalogo,ver_catalogo,80.0,True,train
+holiss,saludo,saludo,90.05,True,train
+heyyy,saludo,saludo,90.05,True,train
+holaa amigo,saludo,saludo,98.88,True,train
+necesito una llave inglesa,buscar_producto,buscar_producto,89.0,True,train
+productos para limpieza,buscar_productos_por_categoria,buscar_productos_por_categoria,99.0,True,train
+que tienen de construccion,buscar_productos_por_categoria,buscar_productos_por_categoria,86.0,True,train
+quiero ver productos de limpieza,buscar_productos_por_categoria,buscar_productos_por_categoria,99.0,True,train
 hola,saludo,saludo,100.0,True,train
-tienen brocas,buscar_producto,buscar_producto,100.0,True,train
-limpieza?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-tienes martillos ?,buscar_productos_por_categoria,buscar_productos_por_categoria,80.0,True,train
-bye,despedida,saludo,80.0,False,train
-que tienen para plomeria,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-olaa,saludo,saludo,80.0,True,train
+quiero brocas,buscar_productos_por_categoria,buscar_productos_por_categoria,81.75,True,train
+tienes martillos,buscar_productos_por_categoria,buscar_productos_por_categoria,73.15,True,train
+busco una cinta métrica,buscar_producto,buscar_producto,99.0,True,train
+q tal,saludo,saludo,97.66,True,train
+tienen clavos,buscar_producto,buscar_producto,90.0,True,train
 muchas gracias adios,despedida,despedida,100.0,True,train
-hola,saludo,saludo,100.0,True,train
-perfecto gracias,despedida,despedida,100.0,True,train
-hasta pronto,despedida,despedida,100.0,True,train
-tiene sapolio mata todo,buscar_producto,buscar_producto,100.0,True,train
-Hola,saludo,saludo,100.0,True,train
-catalogo,ver_catalogo,ver_catalogo,100.0,True,train
-buenos dias,saludo,saludo,100.0,True,train
-adios,despedida,despedida,100.0,True,train
-buenas tardess,saludo,saludo,100.0,True,train
-tienes productos para limpieza ?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-martillo tienes,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-tienes producto para limpieza?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-quiero brocas,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-holaaa,saludo,saludo,100.0,True,train
-HOLAAA,saludo,saludo,100.0,True,train
-holi,saludo,saludo,100.0,True,train
+tienes cables?,buscar_producto,buscar_producto,86.42,True,train
 hola como estas,saludo,saludo,100.0,True,train
-tienes catalogo?,ver_catalogo,ver_catalogo,100.0,True,train
-listame todos los productos de la categoria acabados,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-martillo goma (chapulin),buscar_producto,buscar_producto,100.0,True,train
-productos para limpieza,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-que tenga buen dia,despedida,despedida,100.0,True,train
-que productos tienes,ver_catalogo,ver_catalogo,100.0,True,train
-Muestrame el catalogo,ver_catalogo,ver_catalogo,100.0,True,train
-gracias hasta luego,despedida,despedida,100.0,True,train
-que tienen para jardineria,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-martillo?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-holaa amigo,saludo,saludo,100.0,True,train
-teneis catalogos?,ver_catalogo,ver_catalogo,100.0,True,train
-tienes brocas?,buscar_productos_por_categoria,buscar_producto,50.0,False,train
-quiero ver el catalogo,ver_catalogo,ver_catalogo,100.0,True,train
-holis,saludo,saludo,100.0,True,train
-tienen lijas,buscar_producto,buscar_producto,100.0,True,train
-productos para limpieza?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-que hay,saludo,saludo,100.0,True,train
-que productos tienen de electricidad,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-que venen ?,ver_catalogo,ver_catalogo,100.0,True,train
+adios,despedida,despedida,96.55,True,train
+busco acero que me recomeindas,buscar_producto,buscar_producto,69.0,True,train
+como estas,saludo,saludo,99.11,True,train
+holi,saludo,saludo,99.05,True,train
+nos vemos luego,despedida,despedida,86.11,True,train
+muestrame productos para el hogar,buscar_productos_por_categoria,buscar_productos_por_categoria,86.0,True,train
+hola,saludo,saludo,100.0,True,train
+listame los productos de la categoria acabados,buscar_productos_por_categoria,buscar_productos_por_categoria,99.0,True,train
+adios que este bien,despedida,despedida,89.05,True,train
+hay martillos en stock,buscar_producto,buscar_producto,70.18,True,train
 que tienen para limpieza,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-buenas tardes,saludo,saludo,100.0,True,train
-heyyy,saludo,saludo,80.0,True,train
-quiero comprar pintura,buscar_producto,buscar_producto,100.0,True,train
-tienes tuercas?,buscar_producto,buscar_producto,66.67,True,train
-OLA,saludo,saludo,100.0,True,train
-HOLA,saludo,saludo,100.0,True,train
-que categorias tiene,ver_catalogo,ver_catalogo,100.0,True,train
-busco martillos,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-qué productos tienen para limpieza,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-tiene catalogo?,ver_catalogo,ver_catalogo,100.0,True,train
+alooo,saludo,saludo,90.05,True,train
+muy buenos dias,saludo,saludo,91.08,True,train
+Hola,saludo,saludo,100.0,True,train
+cuanto esta el cemento andino?,buscar_producto_por_precio,buscar_producto_por_precio,83.0,True,train
+dame le catalogo,ver_catalogo,ver_catalogo,99.0,True,train
 hola,saludo,saludo,100.0,True,train
-muy amable gracias,despedida,despedida,100.0,True,train
-tienes martillos?,buscar_productos_por_categoria,buscar_productos_por_categoria,80.0,True,train
-hola alguien me puede ayudar,saludo,saludo,100.0,True,train
-hey,saludo,saludo,100.0,True,train
-tienes pinturas?,buscar_productos_por_categoria,buscar_producto,66.67,False,train
-hola amigo,saludo,saludo,100.0,True,train
-tienes martillos ?,buscar_productos_por_categoria,buscar_productos_por_categoria,80.0,True,train
-quier taladros,buscar_producto,buscar_producto,100.0,True,train
-chau,despedida,saludo,80.0,False,train
-que productos hay de jardineria,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-nos vemos luego,despedida,despedida,100.0,True,train
-como estas,saludo,saludo,100.0,True,train
-holaaaaa,saludo,saludo,80.0,True,train
-hay destornilladores disponibles,buscar_producto,buscar_producto,100.0,True,train
-tienes productos para limpieza?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-cuentan con catalogo?,ver_catalogo,ver_catalogo,100.0,True,train
-tienes brocas?,buscar_producto,buscar_producto,50.0,True,train
-venden cemento,buscar_producto,saludo,80.0,False,train
-hola buenos dias,saludo,saludo,100.0,True,train
-tienes martillos ?,buscar_producto,buscar_productos_por_categoria,80.0,False,train
-busco una cinta métrica,buscar_producto,buscar_producto,100.0,True,train
-hola amigo,saludo,saludo,100.0,True,train
-tiene catalogo?,ver_catalogo,ver_catalogo,100.0,True,train
-quiero ver herramientas electricas,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-hola,saludo,saludo,100.0,True,train
-tienes martillos,buscar_productos_por_categoria,buscar_productos_por_categoria,80.0,True,train
-tiene borcas?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-nos vemos,despedida,despedida,100.0,True,train
-muestrame productos de limpieza,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-alo,saludo,saludo,80.0,True,train
-quiero ver productos de limpieza,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-dame le catalogo,ver_catalogo,ver_catalogo,100.0,True,train
-holi,saludo,saludo,100.0,True,train
-necesito una llave inglesa,buscar_producto,buscar_producto,100.0,True,train
-en donde puedo ver tus catalogos,ver_catalogo,ver_catalogo,100.0,True,train
-tienes aceros?,buscar_producto,buscar_producto,66.67,True,train
-quiero los catalogos,ver_catalogo,ver_catalogo,100.0,True,train
-HoLa,saludo,saludo,100.0,True,train
-holis,saludo,saludo,100.0,True,train
-como estas,saludo,saludo,100.0,True,train
-eso seria todo gracias,despedida,despedida,100.0,True,train
-dame el catalogo porfavor,ver_catalogo,ver_catalogo,100.0,True,train
-dame el catalogo porfa,ver_catalogo,ver_catalogo,100.0,True,train
-muestrame productos para el hogar,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
+listame todos los productos de la categoria acabados,buscar_productos_por_categoria,buscar_productos_por_categoria,99.0,True,train
+que tienen para plomeria,buscar_productos_por_categoria,buscar_productos_por_categoria,97.0,True,train
 hasta luego,despedida,despedida,100.0,True,train
-alooo,saludo,saludo,80.0,True,train
-hasta la proxima,despedida,despedida,100.0,True,train
-tenes los catalagos,ver_catalogo,ver_catalogo,100.0,True,train
-buenasss,saludo,saludo,80.0,True,train
-dame las marcas de acabados interiores pvc,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-buen dia,saludo,saludo,100.0,True,train
-catalogo,ver_catalogo,ver_catalogo,100.0,True,train
-quiero el catalogo,ver_catalogo,ver_catalogo,100.0,True,train
-hay pegamento disponible,buscar_producto,buscar_producto,100.0,True,train
-tiene sapolio?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-que tienen de construccion,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
+necesito comprar clavos,buscar_producto,buscar_producto,72.0,True,train
+perfecto gracias,despedida,despedida,87.29,True,train
+buen diaa,saludo,saludo,94.62,True,train
+hey,saludo,saludo,99.08,True,train
 tiene catalogo?,ver_catalogo,ver_catalogo,100.0,True,train
-tienen martillos,buscar_producto,buscar_producto,100.0,True,train
-hola,saludo,saludo,100.0,True,train
-cables,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-muy buenos dias,saludo,saludo,100.0,True,train
-quier ver el catalogo,ver_catalogo,ver_catalogo,100.0,True,train
-muestrame el catalogo,ver_catalogo,ver_catalogo,100.0,True,train
-tiene sapolio mata todo?,buscar_producto,buscar_producto,100.0,True,train
-hOLA,saludo,saludo,100.0,True,train
-listame los productos de la categoria acabados,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-quiero ver los taladros,buscar_producto,buscar_producto,100.0,True,train
-buenos diaaas,saludo,saludo,100.0,True,train
-hola buenas noches,saludo,saludo,100.0,True,train
-adios que este bien,despedida,despedida,100.0,True,train
-tienes martillo?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-q tal,saludo,saludo,100.0,True,train
-tienes martillo?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-holi,saludo,saludo,100.0,True,train
+tiene sapolio mata todo?,buscar_producto,buscar_producto,64.0,True,train
+que venen ?,ver_catalogo,ver_catalogo,80.0,True,train
+que articulos tienen para pintura,buscar_productos_por_categoria,buscar_productos_por_categoria,90.0,True,train
+holaaaa,saludo,saludo,98.22,True,train
+martillo?,buscar_productos_por_categoria,buscar_productos_por_categoria,81.0,True,train
+busco martillos,buscar_productos_por_categoria,buscar_productos_por_categoria,65.7,True,train
+quiero ver el catalogo,ver_catalogo,ver_catalogo,98.0,True,train
+muestrame productos de limpieza,buscar_productos_por_categoria,buscar_productos_por_categoria,99.0,True,train
+olaaa,saludo,saludo,90.05,True,train
 catalogo,ver_catalogo,ver_catalogo,100.0,True,train
-quiero ver el catalogo,ver_catalogo,ver_catalogo,100.0,True,train
-holiii,saludo,saludo,80.0,True,train
-buenas nochess,saludo,saludo,100.0,True,train
-saludos,saludo,saludo,80.0,True,train
-tienes cables?,buscar_producto,buscar_producto,100.0,True,train
+en cuanto me sale el cemento sol,buscar_producto_por_precio,buscar_producto_por_precio,98.0,True,train
+saludos,saludo,saludo,90.05,True,train
+holis,saludo,saludo,90.05,True,train
+quiero los catalogos,ver_catalogo,ver_catalogo,89.0,True,train
+tienes catalogo?,ver_catalogo,ver_catalogo,89.0,True,train
+gracias hasta luego,despedida,despedida,99.1,True,train
 hola,saludo,saludo,100.0,True,train
-tienes la categoria cables?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
+dame las marcas de acabados interiores pvc,buscar_productos_por_categoria,buscar_productos_por_categoria,77.0,True,train
+tiene borcas?,buscar_productos_por_categoria,buscar_productos_por_categoria,67.0,True,train
+quiero ver el catalogo,ver_catalogo,ver_catalogo,98.0,True,train
+tienes martillos?,buscar_productos_por_categoria,buscar_productos_por_categoria,73.15,True,train
+tienes productos para limpieza?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
+quiero ver el catalogo,ver_catalogo,ver_catalogo,98.0,True,train
+como estas,saludo,saludo,99.11,True,train
+quiero saber si tienen alicates,buscar_producto,buscar_producto,78.0,True,train
+quiero ver productos de electricidad,buscar_productos_por_categoria,buscar_productos_por_categoria,96.0,True,train
+que tenga buen dia,despedida,despedida,65.03,True,train
+tienes producto para limpieza?,buscar_productos_por_categoria,buscar_productos_por_categoria,87.25,True,train
+HOLA,saludo,saludo,100.0,True,train
+tienes productos para limpieza?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
+muestrame tu catalogo,ver_catalogo,ver_catalogo,97.0,True,train
 hola,saludo,saludo,100.0,True,train
+hay destornilladores disponibles,buscar_producto,buscar_producto,65.0,True,train
+quier taladros,buscar_producto,buscar_producto,64.0,True,train
+holiii,saludo,saludo,90.05,True,train
+alo,saludo,saludo,90.05,True,train
+que categorias tiene,ver_catalogo,ver_catalogo,66.0,True,train
+tienes productos para limpieza ?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
+en cuanto me sale las brocas,buscar_producto_por_precio,buscar_producto_por_precio,82.0,True,train
+que productos tienes,ver_catalogo,ver_catalogo,62.0,True,train
+hola buenas noches,saludo,saludo,100.0,True,train
+chau,despedida,saludo,90.05,False,train
+dime el precio del cemento,buscar_producto_por_precio,buscar_producto_por_precio,72.0,True,train
+buenas nochess,saludo,saludo,99.21,True,train
+que tal,saludo,saludo,97.97,True,train
+cables,buscar_productos_por_categoria,buscar_productos_por_categoria,64.0,True,train
+dame el catalogo porfa,ver_catalogo,ver_catalogo,98.0,True,train
+en cuanto me sale el martillo,buscar_producto_por_precio,buscar_producto_por_precio,90.0,True,train
+tienes MARTILLO GOMA (CHAPULIN),buscar_producto,buscar_producto,74.0,True,train
+me despido,despedida,despedida,70.88,True,train
+brocas?,buscar_productos_por_categoria,buscar_productos_por_categoria,68.68,True,train
+hasta pronto,despedida,despedida,94.62,True,train
 hola,saludo,saludo,100.0,True,train
-hey,saludo,saludo,100.0,True,train
-Holaaa,saludo,saludo,100.0,True,train
-holaaaaaa,saludo,saludo,80.0,True,train
-holaa,saludo,saludo,100.0,True,train
-muestrame articulos de limpieza,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-tienes cables?,buscar_producto,buscar_producto,100.0,True,train
-tienes martillo?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-buenass,saludo,saludo,80.0,True,train
-Ola,saludo,saludo,100.0,True,train
+eyy,saludo,saludo,90.05,True,train
+venden cemento,buscar_producto,buscar_producto,64.0,True,train
+tiene sapolio?,buscar_productos_por_categoria,buscar_productos_por_categoria,72.0,True,train
+holii,saludo,saludo,90.05,True,train
+tienes martillos ?,buscar_producto,buscar_productos_por_categoria,73.15,False,train
+tienen brocas,buscar_producto,buscar_producto,75.65,True,train
+holaaaaa,saludo,saludo,90.05,True,train
+tienes tuercas?,buscar_producto,buscar_producto,68.93,True,train
+tienen martillos,buscar_producto,buscar_producto,87.33,True,train
+hola,saludo,saludo,100.0,True,train
+tiene catalogo?,ver_catalogo,ver_catalogo,100.0,True,train
+qué productos tienen para limpieza,buscar_productos_por_categoria,buscar_productos_por_categoria,98.0,True,train
+buenass,saludo,saludo,90.05,True,train
+tienes martillo?,buscar_productos_por_categoria,buscar_productos_por_categoria,97.6,True,train
+tienes pinturas?,buscar_productos_por_categoria,buscar_producto,68.93,False,train
+hasta la proxima,despedida,despedida,97.27,True,train
+tienes brocas?,buscar_productos_por_categoria,buscar_productos_por_categoria,50.05,True,train
+buen dia,saludo,saludo,77.79,True,train
+que productos hay de jardineria,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
+dame el catalogo porfavor,ver_catalogo,ver_catalogo,98.0,True,train
+Holaaa,saludo,saludo,99.43,True,train
+quiero ver los taladros,buscar_producto,buscar_producto,73.0,True,train
+en donde puedo ver tus catalogos,ver_catalogo,ver_catalogo,81.0,True,train
+tienes cables?,buscar_producto,buscar_producto,86.42,True,train
+catalogo,ver_catalogo,ver_catalogo,100.0,True,train
+eso seria todo gracias,despedida,despedida,90.81,True,train
+OLA,saludo,saludo,90.05,True,train
+Muestrame el catalogo,ver_catalogo,ver_catalogo,98.0,True,train
+adios,despedida,despedida,96.55,True,train
+tiene catalogo?,ver_catalogo,ver_catalogo,100.0,True,train
+buenos dias,saludo,saludo,98.22,True,train
 que productos tienen de limpieza,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
-muestrame tu catalogo,ver_catalogo,ver_catalogo,100.0,True,train
-hola,saludo,saludo,100.0,True,test
-catalogos,ver_catalogo,ver_catalogo,100.0,True,test
-listame tus productos,ver_catalogo,buscar_productos_por_categoria,100.0,False,test
-tienen sapolio mata todo,buscar_producto,buscar_producto,100.0,True,test
-holii,saludo,saludo,80.0,True,test
-me muestra las pinturas que tiene,buscar_productos_por_categoria,ver_catalogo,100.0,False,test
-holaa,saludo,saludo,100.0,True,test
-gracias por la informacion,despedida,despedida,100.0,True,test
-muestrame articulos de construccion,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,test
-eyy,saludo,saludo,80.0,True,test
-olaaa,saludo,saludo,80.0,True,test
-perdon que venden,ver_catalogo,ver_catalogo,100.0,True,test
-quiero tus catalogos,ver_catalogo,ver_catalogo,100.0,True,test
-buenas noches,saludo,saludo,100.0,True,test
-que articulos tienen para pintura,buscar_productos_por_categoria,buscar_producto,100.0,False,test
-busco una escalera,buscar_producto,buscar_producto,100.0,True,test
-muestra el catalogo,ver_catalogo,ver_catalogo,100.0,True,test
-holiss,saludo,saludo,80.0,True,test
-hay martillos en stock,buscar_producto,saludo,80.0,False,test
-tienes taladros?,buscar_productos_por_categoria,buscar_productos_por_categoria,80.0,True,test
-quiero ver productos de pintura,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,test
-chao,despedida,saludo,80.0,False,test
-holisss,saludo,saludo,80.0,True,test
-heyy,saludo,saludo,80.0,True,test
-goli,saludo,saludo,80.0,True,test
+tenes los catalagos,ver_catalogo,ver_catalogo,68.0,True,train
+que hay,saludo,saludo,68.82,True,train
+tiene algun producto para limpieza?,buscar_productos_por_categoria,buscar_productos_por_categoria,89.0,True,train
+ey,saludo,saludo,90.05,True,train
+holisss,saludo,saludo,90.05,True,train
+holaa,saludo,saludo,97.65,True,train
+tienen sapolio mata todo,buscar_producto,buscar_producto,80.0,True,train
+tienes martillo?,buscar_productos_por_categoria,buscar_productos_por_categoria,97.6,True,train
+hola buenos dias,saludo,saludo,99.63,True,train
+tienes martillo?,buscar_productos_por_categoria,buscar_productos_por_categoria,97.6,True,train
+tiene catalogo?,ver_catalogo,ver_catalogo,100.0,True,train
+quiero comprar pintura,buscar_producto,buscar_producto,70.0,True,train
+hola alguien me puede ayudar,saludo,saludo,94.0,True,train
+tienes martillos ?,buscar_productos_por_categoria,buscar_productos_por_categoria,73.15,True,train
+hola amigo,saludo,saludo,100.0,True,train
+cuentan con catalogo?,ver_catalogo,ver_catalogo,100.0,True,train
+muestrame el catalogo,ver_catalogo,ver_catalogo,98.0,True,train
+tienes aceros?,buscar_producto,buscar_producto,68.93,True,train
+hola buenas tardes,saludo,saludo,100.0,True,train
+productos para limpieza?,buscar_productos_por_categoria,buscar_productos_por_categoria,99.0,True,train
+HoLa,saludo,saludo,100.0,True,train
+estoy buscando una sierra,buscar_producto,buscar_producto,80.0,True,train
+hola,saludo,saludo,100.0,True,train
+heyy,saludo,saludo,90.05,True,train
+hasta mañana,despedida,despedida,94.62,True,train
+que tienen para jardineria,buscar_productos_por_categoria,buscar_productos_por_categoria,99.0,True,train
+buenasss,saludo,saludo,90.05,True,train
+que productos tienen de electricidad,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
+hola,saludo,saludo,100.0,True,train
+catalogo,ver_catalogo,ver_catalogo,100.0,True,train
+muestrame tu catalogo,ver_catalogo,ver_catalogo,97.0,True,train
+muy amable gracias,despedida,despedida,92.45,True,train
+que tal,saludo,saludo,97.97,True,train
+quiero el catalogo,ver_catalogo,ver_catalogo,98.0,True,train
+holaaa,saludo,saludo,99.43,True,train
+tienes brocas?,buscar_producto,buscar_productos_por_categoria,50.05,False,train
+bye,despedida,saludo,90.05,False,train
+que productos tiene para limpieza,buscar_productos_por_categoria,buscar_productos_por_categoria,95.0,True,train
+holi,saludo,saludo,99.05,True,train
+hola que tal,saludo,saludo,99.0,True,train
+holaaaa amigo,saludo,saludo,99.59,True,train
+aloo,saludo,saludo,90.05,True,train
+holaaaaaa,saludo,saludo,90.05,True,train
+buenas tardes,saludo,saludo,99.52,True,train
+que productos ofrecen de jardineria,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,train
+martillo goma (chapulin),buscar_producto,buscar_producto,66.0,True,train
+quiero ver herramientas electricas,buscar_productos_por_categoria,buscar_productos_por_categoria,61.0,True,train
+holaaa,saludo,saludo,99.43,True,train
+buenas tardess,saludo,saludo,99.21,True,train
+tiene martillo?,buscar_productos_por_categoria,buscar_productos_por_categoria,90.0,True,train
+quiero el catalogoooooo,ver_catalogo,ver_catalogo,70.0,True,train
+tienes la categoria cables?,buscar_productos_por_categoria,buscar_producto,68.1,False,test
+listame tus productos,ver_catalogo,buscar_productos_por_categoria,48.0,False,test
+catalogos,ver_catalogo,ver_catalogo,80.0,True,test
+hay pegamento disponible,buscar_producto,buscar_producto,65.0,True,test
+listame todos los productos de la categoria acabados,buscar_productos_por_categoria,buscar_productos_por_categoria,99.0,True,test
+muestrame articulos de construccion,buscar_productos_por_categoria,buscar_productos_por_categoria,49.0,True,test
+buenas noches,saludo,saludo,99.21,True,test
+buenos diaaas,saludo,saludo,92.51,True,test
+a cuando la pala,buscar_producto_por_precio,saludo,79.33,False,test
+hola necesito informacion,saludo,saludo,91.0,True,test
 hola equipo,saludo,saludo,100.0,True,test
-listame todos los productos de la categoria acabados,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,test
-adios,despedida,despedida,100.0,True,test
-tienes martillo?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,test
-que tal,saludo,saludo,100.0,True,test
-adios,despedida,despedida,100.0,True,test
-brocas?,buscar_productos_por_categoria,saludo,80.0,False,test
-tiene martillo?,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,test
-buenasss,saludo,saludo,80.0,True,test
-holaaaa,saludo,saludo,80.0,True,test
-tiene manzanas ?,ver_catalogo,buscar_productos_por_categoria,100.0,False,test
-tiene taladro,buscar_producto,buscar_productos_por_categoria,100.0,False,test
-martillos,buscar_producto,saludo,80.0,False,test
-muestrame productos de plomeria,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,test
-hola necesito informacion,saludo,saludo,100.0,True,test
-holaaa,saludo,saludo,100.0,True,test
-quiero ver productos de electricidad,buscar_productos_por_categoria,buscar_productos_por_categoria,100.0,True,test
-estoy buscando una sierra,buscar_producto,saludo,80.0,False,test
-tenes catalogos,ver_catalogo,ver_catalogo,100.0,True,test
-ya no necesito mas ayuda,despedida,buscar_producto,100.0,False,test
+quiero tus catalogos,ver_catalogo,ver_catalogo,62.0,True,test
+gracias por la informacion,despedida,despedida,88.19,True,test
+perdon que venden,ver_catalogo,ver_catalogo,80.0,True,test
+tienes martillo?,buscar_productos_por_categoria,buscar_productos_por_categoria,97.6,True,test
+holaa,saludo,saludo,97.65,True,test
+tienen lijas,buscar_producto,buscar_producto,74.0,True,test
+me muestra las pinturas que tiene,buscar_productos_por_categoria,buscar_productos_por_categoria,30.0,True,test
+adios,despedida,despedida,96.55,True,test
+tiene sapolio mata todo,buscar_producto,buscar_producto,64.0,True,test
+muestrame productos de plomeria,buscar_productos_por_categoria,buscar_productos_por_categoria,92.0,True,test
+muestrame articulos de limpieza,buscar_productos_por_categoria,buscar_productos_por_categoria,61.0,True,test
+Ola,saludo,saludo,90.05,True,test
+adios,despedida,despedida,96.55,True,test
+tenes catalogos,ver_catalogo,ver_catalogo,80.0,True,test
+buenasss,saludo,saludo,90.05,True,test
+chao,despedida,saludo,90.05,False,test
+ola,saludo,saludo,90.05,True,test
+holis,saludo,saludo,90.05,True,test
+holi,saludo,saludo,99.05,True,test
+ya no necesito mas ayuda,despedida,saludo,67.36,False,test
+tienes taladros?,buscar_productos_por_categoria,buscar_producto,52.23,False,test
+tienes martillos ?,buscar_productos_por_categoria,buscar_productos_por_categoria,73.15,True,test
+hola amigo,saludo,saludo,100.0,True,test
+quiero ver productos de pintura,buscar_productos_por_categoria,buscar_productos_por_categoria,93.0,True,test
+LSTAME la categoria saspolio,buscar_productos_por_categoria,saludo,76.63,False,test
+goli,saludo,saludo,90.05,True,test
+hOLA,saludo,saludo,100.0,True,test
+HOLAAA,saludo,saludo,99.43,True,test
+martillos,buscar_producto,saludo,39.55,False,test
+busco un taladro,buscar_producto,saludo,42.2,False,test
+olaa,saludo,saludo,90.05,True,test
+tiene taladro,buscar_producto,buscar_productos_por_categoria,67.0,False,test
+muestra el catalogo,ver_catalogo,ver_catalogo,92.0,True,test
+tiene manzanas ?,ver_catalogo,buscar_productos_por_categoria,67.0,False,test
+a cuanto el kilo de clavos,buscar_producto_por_precio,buscar_producto_por_precio,34.0,True,test

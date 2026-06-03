@@ -33,6 +33,7 @@ def formatear_productos(productos: list[dict]) -> list[dict]:
             "nombre": p["prdcnombre"],
             "imagen": url_imagen(BUCKET_PRODUCTO, p["prdcimgnombrebucket"])
                       if p.get("prdcimgnombrebucket") else "",
+            "precio": p.get("prdcprecio"),
         }
         for p in productos
     ]
